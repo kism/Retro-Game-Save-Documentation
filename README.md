@@ -1,5 +1,5 @@
 # Nintendo 64
-## eeprom 4kbit
+### eeprom 4kbit
 Big Endian
 
 4kbit/ 512 bytes
@@ -10,13 +10,14 @@ Big Endian
 
 Gold: 7A-7B
 
-## eeprom 16kbit
+### eeprom 16kbit
 Big Endian
 
 16kbit / 2048 bytes
 
-## SRAM
+### SRAM
+256kbit / 32768 bytes
 
-## FlashRAM
+### FlashRAM
 
-## Controller Pack
+### Controller Pack
