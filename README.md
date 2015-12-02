@@ -12,7 +12,7 @@ Gold: 7A-7B
 
 **Mario Kart**
 
-No checksum
+Unconfirmed checksum at either 1F6 - 1F7 or 1FE - 1FF, unknown range
 
 ### eeprom 16kbit
 Big Endian
