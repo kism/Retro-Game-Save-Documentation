@@ -14,7 +14,7 @@ Gold: 7A-7B
 
 Unconfirmed checksum at either 1F6 - 1F7 or 1FE - 1FF, unknown range
 
-** Super Mario 64 **
+**Super Mario 64**
 
 Unconfirmed 8 bit checksum(?), two per savegame, indicated by 0x44 0x41 0x00 0xXX, 0xXX being the 8 bit checksum.
 
