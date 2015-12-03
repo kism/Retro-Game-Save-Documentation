@@ -4,6 +4,10 @@ So far all offsets are for in game save file 3
 
 Currently the structure looks very confusing to me
 
+[My save file archive](https://github.com/kism/Retro-Game-Save-Documentation/tree/master/Nintendo%2064/Working/Banjo-Kazooie)
+
+[Hex Workshop Bookmarks](https://github.com/kism/Retro-Game-Save-Documentation/tree/master/Nintendo%2064/Hex%20Workshop%20Bookmarks)
+
 ### Offset dump
 
 | Event               | Offest    | Changes / Data Type | Does it stay that way? |
