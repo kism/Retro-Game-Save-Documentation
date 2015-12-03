@@ -55,6 +55,7 @@ Coins
 | MIPS #1 | 08 bit 3 |
 
 **Castle Modifiers**
-| Modifier | Location |
+
+| Modifier    | Location |
 |-------------|----------|
 | Water Level | 0A bit 1 |
