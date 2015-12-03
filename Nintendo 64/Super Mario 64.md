@@ -59,3 +59,9 @@ Coins
 | Modifier    | Location |
 |-------------|----------|
 | Water Level | 0A bit 1 |
+
+### Todo
+ - Figure out why some star values are FF in a 120 star save
+ - Figure out what 36 is
+ - Figure out the other checking method
+ - Reverse engineer the save of a game I actually like instead
