@@ -16,11 +16,11 @@ Controller Pack
 
 ### Games
 
-Super Mario 64
+[Super Mario 64](https://github.com/kism/Retro-Game-Save-Documentation/blob/master/Nintendo%2064/Mario%20Kart%2064.md)
 
-Mario Party 2
+[Mario Party 2](https://github.com/kism/Retro-Game-Save-Documentation/blob/master/Nintendo%2064/Mario%20Party%202.md)
 
-Mario Kart 64
+[Mario Kart 64](https://github.com/kism/Retro-Game-Save-Documentation/blob/master/Nintendo%2064/Super%20Mario%2064.md)
 
 # Sega Dreamcast
 
@@ -32,4 +32,4 @@ VMU
 
 ### Games
 
-Grandia II
+[Grandia II](https://github.com/kism/Retro-Game-Save-Documentation/blob/master/Dreamcast/Grandia%20II.md)
