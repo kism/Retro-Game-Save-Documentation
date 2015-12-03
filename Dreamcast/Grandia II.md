@@ -14,7 +14,7 @@ All values are Little Endian 32 bit Unsigned Integer
 
 All values are 8 bit Unsigned Integer
 
-Consumables
+**Consumables**
 
 | Item           | Offset |
 |----------------|--------|
@@ -25,7 +25,7 @@ Consumables
 | Golden Potion  | B41    |
 | Panacea        | B30    |
 
-Weapons
+**Weapons**
 
 | Item              | Offset |
 |-------------------|--------|
@@ -37,7 +37,7 @@ Weapons
 | Phoenix Ring      | C59    |
 | Leo Rex Battleaxe | C77    |
 
-Armor
+**Armor**
 
 | Item             | Offset |
 |------------------|--------|
@@ -47,7 +47,7 @@ Armor
 | Priestess Robe   | CD1    |
 | Sun Robe         | CDB    |
 
-Headgear
+**Headgear**
 
 | Item              | Offset |
 |-------------------|--------|
@@ -56,7 +56,7 @@ Headgear
 | Illusion Bandanna | D17    |
 | Sages Hat         | D2B    |
 
-Footwear
+**Footwear**
 
 | Item           | Offset |
 |----------------|--------|
@@ -64,7 +64,7 @@ Footwear
 | Glass Slippers | D53    |
 | Ogre Shoes     | D5D    |
 
-Accessories
+**Accessories**
 
 | Item            | Offset |
 |-----------------|--------|
@@ -82,7 +82,7 @@ Accessories
 | Shoguns Brace   | DC5    |
 | Sonic Belt      | DCA    |
 
-Valuables
+**Valuables**
 
 | Item             | Offset |
 |------------------|--------|
@@ -106,7 +106,7 @@ Valuables
 | Astral Miracle   | B07    |
 | Ethereal Miracle | B08    |
 
-Books
+**Books**
 
 | Item             | Offset |
 |------------------|--------|
@@ -120,7 +120,7 @@ Books
 | Book of Sages    | AEE    |
 | Book of Learning | AEF    |
 
-Eggs
+**Eggs**
 
 | Item        | Offset |
 |-------------|--------|
