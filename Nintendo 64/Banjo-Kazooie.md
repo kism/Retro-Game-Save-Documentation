@@ -1,9 +1,5 @@
 # Banjo-Kazooie
 
-So far all offsets are for in game save file 3
-
-Currently the structure looks very confusing to me
-
 [My save file archive](https://github.com/kism/Retro-Game-Save-Documentation/tree/master/Nintendo%2064/Working/Banjo-Kazooie)
 
 [Hex Workshop Bookmarks](https://github.com/kism/Retro-Game-Save-Documentation/tree/master/Nintendo%2064/Hex%20Workshop%20Bookmarks)
@@ -27,6 +23,9 @@ Save validation happens at game select screen, the only save that can be validat
 The stop n swap area is the only area validated on boot.
 
 ### Offset dump
+
+So far all offsets are for in game save file 3 / reletive to the start of the save
+
 
 | Event               | Offest    | Changes / Data Type | Does it stay that way? |
 |---------------------|-----------|---------------------|------------------------|
