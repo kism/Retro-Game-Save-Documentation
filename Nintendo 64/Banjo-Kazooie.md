@@ -8,6 +8,8 @@ Currently the structure looks very confusing to me
 
 [Hex Workshop Bookmarks](https://github.com/kism/Retro-Game-Save-Documentation/tree/master/Nintendo%2064/Hex%20Workshop%20Bookmarks)
 
+### Quirks
+
 ### Offset dump
 
 | Event               | Offest    | Changes / Data Type | Does it stay that way? |
@@ -18,10 +20,10 @@ Currently the structure looks very confusing to me
 | GL Time?            | 032 - 035 | Counts in seconds?  | Yes                    |
 | MM Stonehenge MT    | 040       | Bit 4 = 1           | Yes                    |
 | (Spendable MT)      | 065       | UI_8                | Yes                    |
-| Eggs                | 66        | UI_8                | Yes                    |
-| Spendable Jiggys    | 69        | UI_8                | Yes                    |
-| Talon Trot          | 6B        | Bit 0 = 1           | Yes                    |
-| Beak Buster         | 6D        | Bit 2 = 1           | Yes                    |
-| Total Game Time     | 74 - 77   | Counts in seconds?  | Yes                    |
+| Eggs                | 066       | UI_8                | Yes                    |
+| Spendable Jiggys    | 069       | UI_8                | Yes                    |
+| Talon Trot          | 06B       | Bit 0 = 1           | Yes                    |
+| Beak Buster         | 06D       | Bit 2 = 1           | Yes                    |
+| Total Game Time     | 074 - 077 | Counts in seconds?  | Yes                    |
 | MM Stonehenge Jiggy | 0F2       | Bit 2 = 1           | NOPE                   |
-| MM Jinjo Jiggy      | 02        | Bit 1 = 1           | Yes?                   |
+| MM Jinjo Jiggy      | 002       | Bit 1 = 1           | Yes?                   |
