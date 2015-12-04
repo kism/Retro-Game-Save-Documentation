@@ -6,6 +6,8 @@
 
 ### Save layout
 
+This isnt 100% confirmed, see Quirks
+
 Save 3 - 000 - 077
 
 Save 2 - 078 - 0EF
@@ -19,6 +21,8 @@ Stop N Swap? - 1E0 - 1FF
 ### Quirks
 
 Save validation happens at game select screen, the only save that can be validated is the one that was last loaded, the game compares the save with a copy at 1F0 - 167. 1F8 - 167 doesnt get cleared if data is invalid, will be overridden on actual save.
+
+The last file loaded is located at 01
 
 The stop n swap area is the only area validated on boot.
 
