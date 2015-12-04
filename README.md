@@ -22,6 +22,8 @@ Controller Pack
 
 [Mario Kart 64](https://github.com/kism/Retro-Game-Save-Documentation/blob/master/Nintendo%2064/Super%20Mario%2064.md)
 
+[Banjo-Kazooie](https://github.com/kism/Retro-Game-Save-Documentation/blob/master/Nintendo%2064/Banjo-Kazooie.md)
+
 # Sega Dreamcast
 
 All saves are Little Endian
