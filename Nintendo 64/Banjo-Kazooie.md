@@ -40,13 +40,21 @@ So far all offsets are for in game save file 3 (subtract 8 for it to be reletive
 | Gold Feathers    | 068    |
 | Jiggys           | 069    |
 
-**Totals**
+**Totals (UI_16 Counts in seconds)**
 
-| Event               | Offest    | Changes / Data Type |
-|---------------------|-----------|---------------------|
-| MM Time             | 028 - 02B | Counts in seconds?  |
-| GL Time?            | 032 - 035 | Counts in seconds?  |
-| Total Game Time     | 074 - 077 | Counts in seconds?  |
+| Event               | Offest    |
+|---------------------|-----------|
+| SM Time             | 0E3 - 0E4 |
+| GL Time             | 034 - 035 |
+| MM Time             | 02A - 02B |
+| TTT Time            | 02C - 02D |
+| CC Time             | 02E - 02F |
+| BGS Time            | 030 - 031 |
+| FP Time             | 032 - 033 |
+| GV Time             | 036 - 037 |
+| MMM Time            | 03C - 03D |
+| RBB Time            | 03A - 03B |
+| CCW Time            | 03E - 03F |
 
 **Moves**
 
