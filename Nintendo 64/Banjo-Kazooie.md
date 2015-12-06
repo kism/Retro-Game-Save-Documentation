@@ -35,8 +35,10 @@ So far all offsets are for in game save file 3 (subtract 8 for it to be reletive
 | Event            | Offest |
 |------------------|--------|
 | Mumbo Tokens     | 065    |
-| Jiggys           | 069    |
 | Eggs             | 066    |
+| Red Feathers     | 067    |
+| Gold Feathers    | 068    |
+| Jiggys           | 069    |
 
 **Totals**
 
