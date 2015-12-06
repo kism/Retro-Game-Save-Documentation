@@ -8,13 +8,21 @@
 
 This isnt 100% confirmed, see Quirks
 
-Save 3 - 000 - 077
+metadata ? 000 - 007
 
-Save 2 - 078 - 0EF
+Save 3  008 - 077
 
-Copy of last loaded save - 1F0 - 167
+??? 078 - 07F
 
-Save 1 - 168 - 1DF
+Save 2  080 - 0EF
+
+Copy of metadata ? (000 - 007) 0F0 - 0F7
+
+Copy of last loaded save 0F7 - 167
+
+??? 168 - 16F
+
+Save 1 - 170 - 1DF
 
 Stop N Swap? - 1E0 - 1FF
 
