@@ -6,42 +6,32 @@
 
 ### Save layout
 
-This isnt 100% confirmed, see Quirks
-
-metadata ? 000 - 007
-
-Save 3  008 - 077
-
-??? 078 - 07F
-
-Save 2  080 - 0EF
-
-Copy of metadata ? (000 - 007) 0F0 - 0F7
-
-Copy of last loaded save 0F7 - 167
-
-??? 168 - 16F
-
-Save 1 - 170 - 1DF
-
-Stop N Swap? - 1E0 - 1FF
+| Thing                    | Range     | Length |
+|--------------------------|-----------|--------|
+| Metadata ?               | 000 - 007 | 8      |
+| Save 3                   | 008 - 077 | 70     |
+| ???                      | 078 - 07F | 8      |
+| Save 2                   | 080 - 0EF | 70     |
+| Copy of Metadata ?       | 0F0 - 0F7 | 8      |
+| Copy of last loaded save | 0F7 - 167 | 70     |
+| ???                      | 168 - 16F | 8      |
+| Save 1                   | 170 - 1DF | 70     |
+| Stop N Swap?             | 1E0 - 1FF | 20     |
 
 ### Quirks
 
-Save validation happens at game select screen, the only save that can be validated is the one that was last loaded, the game compares the save with a copy at 1F0 - 167. 1F8 - 167 doesnt get cleared if data is invalid, will be overridden on actual save.
+Save validation happens at game select screen, the only save that can be validated is the one that was last loaded, the game compares the save with a copy at 0F7 - 167. 1F8 - 167 doesnt get cleared if data is invalid and will only be overridden on the next save.
 
-The last file loaded is located at 01
+The last file loaded is located at 001 as an unsigned integer
 
-The stop n swap area is the only area validated on boot.
+The stop n swap? area is the only area validated on boot.
 
 ### Offset dump
 
-So far all offsets are for in game save file 3 / reletive to the start of the save
-
+So far all offsets are for in game save file 3 (subtract 8 for it to be reletive to the start of the save (I'll fix this later))
 
 | Event               | Offest    | Changes / Data Type | Does it stay that way? |
 |---------------------|-----------|---------------------|------------------------|
-| Chimpy Jiggy        | 002       | Bit 0 =  1          | NOPE                   |
 | MM Notes            | 022       | UI_8                | Yes                    |
 | MM Time             | 028 - 02B | Counts in seconds?  | Yes                    |
 | GL Time?            | 032 - 035 | Counts in seconds?  | Yes                    |
@@ -52,5 +42,3 @@ So far all offsets are for in game save file 3 / reletive to the start of the sa
 | Talon Trot          | 06B       | Bit 0 = 1           | Yes                    |
 | Beak Buster         | 06D       | Bit 2 = 1           | Yes                    |
 | Total Game Time     | 074 - 077 | Counts in seconds?  | Yes                    |
-| MM Stonehenge Jiggy | 0F2       | Bit 2 = 1           | NOPE                   |
-| MM Jinjo Jiggy      | 002       | Bit 1 = 1           | Yes?                   |
