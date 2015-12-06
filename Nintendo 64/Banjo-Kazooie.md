@@ -31,6 +31,7 @@ The stop n swap? area is the only area validated on boot.
 So far all offsets are for in game save file 3 (subtract 8 for it to be reletive to the start of the save (I'll fix this later))
 
 **Spendable Items**
+
 | Event            | Offest |
 |------------------|--------|
 | Mumbo Tokens     | 065    |
@@ -38,6 +39,7 @@ So far all offsets are for in game save file 3 (subtract 8 for it to be reletive
 | Eggs             | 066    |
 
 **Totals**
+
 | Event               | Offest    | Changes / Data Type |
 |---------------------|-----------|---------------------|
 | MM Time             | 028 - 02B | Counts in seconds?  |
@@ -45,12 +47,14 @@ So far all offsets are for in game save file 3 (subtract 8 for it to be reletive
 | Total Game Time     | 074 - 077 | Counts in seconds?  |
 
 **Moves**
+
 | Move        | Offset | Bit       |
 |-------------|--------|-----------|
 | Talon Trot  | 06B    | Bit 0 = 1 |
 | Beak Buster | 06D    | Bit 2 = 1 |
 
 **Mumbos Mountian Collectables**
+
 | Thing            | Offset | Changes / Data Type |
 |------------------|--------|---------------------|
 | MM Notes         | 022    | UI_8                |
