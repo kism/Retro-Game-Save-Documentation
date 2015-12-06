@@ -12,7 +12,7 @@
 | Save 3                   | 008 - 077 | 70     |
 | ???                      | 078 - 07F | 8      |
 | Save 2                   | 080 - 0EF | 70     |
-| Copy of Metadata ?       | 0F0 - 0F7 | 8      |
+| Copy of 'Metadata ?'     | 0F0 - 0F7 | 8      |
 | Copy of last loaded save | 0F7 - 167 | 70     |
 | ???                      | 168 - 16F | 8      |
 | Save 1                   | 170 - 1DF | 70     |
